@@ -1,0 +1,135 @@
+body {
+  background-color: #80b3ff;
+  color: #021b2e;
+  font-size: 16px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #4b4f8b86;
+  color: #000000;
+  width: 90%;
+  margin: auto;
+  max-width: 1800px;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+section {
+  width: 95%;
+  margin: auto;
+  max-width: 1800px;
+}
+
+footer {
+  background-color: #4b4f8b86;
+  color: #000000;
+  width: 90%;
+  margin: auto;
+  max-width: 1800px;
+}
+
+/* Esto es de las Pseudoclases */
+
+a:active{
+    color: #8500a0;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+textarea:focus{
+    background-color: #efffc9;
+}
+
+input:enabled{
+    background-color: #40ff27;
+}
+
+input:disabled{
+    background-color: #e96969;
+}
+
+input:optional{
+    font-family: fantasy;
+}
+
+input:required{
+    font-family: cursive;
+}
+
+input:read-only{
+    font-family: monospace;
+}
+
+input:read-write{
+    font-family: sans-serif;
+}
+
+input:valid{
+    color: #6b4747;
+}
+
+input:invalid{
+    color: #220a7c;
+}
+
+a:link{
+    background-color: coral;
+}
+
+p:only-of-type{
+    color: #94c919;
+}
+
+p:last-of-type{
+    color: #c4ecff;
+}
+
+h1:lang(en){
+    color: #917006;
+}
+
+/* Esto es de los Pseudo-elementos */
+
+h1::after{
+    content: " - The game";
+    color: #ff0000;
+}
+
+h1::before{
+    content: url("./imgs/estrella.svg");
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+p::selection{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+p::first-letter{
+    font-size: 2rem;
+    color: #ff0000;
+}
+
+p::first-line{
+    font-size: 1.5rem;
+    color: #0000ff;
+}
+
+

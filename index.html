@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Pagina de Prueba</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navegacion">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Characters</a></li>
+          <li><a href="">Register a Character</a></li>
+          <li><a href="">More Informaion</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="head">
+        <h1>Overwatch</h1>
+        <div class="subhead">
+          The best place to find your favorite characters
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+        <p>eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <a href="" class="button grey">Play now</a>
+        <a href="">See Characters</a>
+      </div>
+      <img src="./imgs/reaper.png" alt="Gabriel Reyes as Reaper" height="350" />
+    </header>
+    <section>
+      <h2>Characters</h2>
+      <div class="reaper">
+        <img src="./imgs/reaper2.png" alt="Grafitti of Reaper" height="120" />
+        <h3>Reaper</h3>
+        <p>
+          Gabriel Reyes, also known as Reaper, is a former member of Overwatch
+          and the leader of the...
+        </p>
+        <a href="" class="button purple">More Information</a>
+      </div>
+      <div class="cassidy">
+        <img src="./imgs/cassidy.png" alt="Grafitti of Casiddy" height="120" />
+        <h3>McCree</h3>
+        <p>
+          Jesse McCree is a former member of Overwatch and the leader of the
+          Deadlock Gang...
+        </p>
+        <a href="" class="button purple">More Information</a>
+      </div>
+      <div class="genji">
+        <img src="./imgs/genji.png" alt="Grafitti of Genji" height="120" />
+        <h3>Genji</h3>
+        <p>
+          Genji Shimada is a former member of the Shimada Clan and the brother
+          of Hanzo...
+        </p>
+        <a href="" class="button purple">More Information</a>
+      </div>
+    </section>
+    <section>
+      <h3>Join in the army of Overwatch!</h3>
+      <h4>Register your character</h4>
+      <div class="form">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" name="name" enabled /> <br />
+          <label for="role">Role</label>
+          <input type="text" name="role" readonly /> <br />
+          <label for="abilities">Abilities</label>
+          <textarea enabled>Tell us about your abilities!</textarea> <br />
+          <label for="image">Image</label>
+          <input type="file" name="image" disabled /> <br />
+          <label for="terms">I accept the terms and conditions</label>
+          <input type="checkbox" name="terms" optional /> <br />
+          <label for="country">Country</label>
+          <select name="country" required>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+          </select>
+          <br />
+          <label for="birthdate">Date of Birth</label>
+          <input type="date" name="birthdate" /> <br />
+          <input type="submit" value="Register" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <img src="./imgs/genji2.png" alt="Genji Shimada" height="350" />
+      <div class="footer">
+        <p>Overwatch</p>
+      </div>
+    </footer>
+  </body>
+</html>
